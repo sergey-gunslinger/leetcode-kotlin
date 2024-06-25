@@ -1,0 +1,8 @@
+[versions]
+plugin-kotlin-jvm = '2.0.0'
+
+[plugins]
+kotlin-jvm = { id = 'org.jetbrains.kotlin.jvm', version.ref = 'plugin-kotlin-jvm' }
+
+[libraries]
+kotlin-test = { group = 'org.jetbrains.kotlin', name = 'kotlin-test' }
